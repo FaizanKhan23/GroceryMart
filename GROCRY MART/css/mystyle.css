@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----Nav--Bg-----*/
+.navbg{
+    background-color:white;
+}
+
+/*-----Nav--link----*/
+.navbar-nav .nav-link{
+    margin-left:24px;
+    font-weight: 500;
+    color: black!important;
+    transition: 0.4s all;
+}
+
+/*-----Nav-link-hover----*/
+
+.navbar-nav .nav-link:hover{
+    color:#86ba09!important;
+}
+
+/*----Navbar-Brand-------*/
+.navbar-brand{
+    color:#86ba09!important;
+    font-size: 24px;
+}
+
+.navbar-toggler{
+    color: white!important;
+    background-color: white;
+}
+
+/*------Nav-icons-----*/
+.icons{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+.icons .icon{
+    color: black;
+    transition: 0.4s all;
+}
+
+.icons .icon:hover{
+    color:#86ba09;
+}
+
+/*------About-section------*/
+.mt-5{margin-top: 120px!important;}
+
+
+.abt{margin-top: 60px;}
+.abtus{color:#86ba09;
+    font-family: 'Roboto', sans-serif;}
+.para1{line-height: 35px;}
+.btn-outline-success{color:#86ba09;}
+
+/*--------Product--sec-------*/
+.prod{color: #86ba09; 
+    text-align: center;
+        }
+
+.prod_head{
+    font-family: 'Roboto', sans-serif;   
+}
+
+/*-----color-------*/
+.clr{
+    color: #86ba09;  
+}
+
+/*-------Footer-----*/
+.foot{
+    width: 100%;
+    height: auto;
+    padding:30px;
+    background-color:white;
+    color:#86ba09;
+
+}
+
+h4{
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.anc a{
+        text-decoration: none;
+        display: block;
+        color:#898989;
+        padding-top: 8px;
+        font-family: 'Quicksand', sans-serif;
+        transition: all 0.3s;
+}
+
+.anc a:hover{
+    color:#86ba09;
+}
+
+
+
+.myfont{
+    font-family: 'Quicksand', sans-serif;
+    color:#898989;
+}
+
+.srcbox .p{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
